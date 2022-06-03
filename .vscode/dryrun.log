@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/ibyeonghun/Documents/C/src'
+gcc -c -Wall -o 
+gcc    -c -o object.o object.c
+gcc -c -Wall -o 
+gcc    -c -o print.o print.c
+gcc -Wall -o object.c print.c
+make: Leaving directory `/Users/ibyeonghun/Documents/C/src'
+ 
